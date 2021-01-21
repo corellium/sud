@@ -1,0 +1,2 @@
+export CC := ~/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android24-clang
+export SYSROOT := ~/Android/Sdk/ndk/20.0.5594570/platforms/android-24/arch-arm64
