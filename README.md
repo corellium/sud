@@ -6,7 +6,7 @@
 
 ### Build
 
-Building should be rather simple, simply modify the `Makefile.local` file to properly point to you compiled of choice (`CC`) and system root (`SYSROOT`). These are located inside your Android NDK (`ANDROID_NDK`) directory for most people. I've left my `Makefile.local` commited to what it would be on my builder as an example. Once this is done, simply run `make`.
+Building should be rather simple, simply create a `Makefile.local` file to properly point to you compiled of choice (`CC`) and system root (`SYSROOT`). These are located inside your Android NDK (`ANDROID_NDK`) directory for most people. You can check the `Makefile.local.sample` in this repository as an example. Once this is done, simply run `make`.
 
 ```
 diff@larry:../sud/ $ make
