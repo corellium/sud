@@ -514,12 +514,6 @@ int su_main(int argc, char *argv[], int need_client) {
         cp++;
     }
 
-    /*
-     * set LD_LIBRARY_PATH if the linker has wiped out it due to we're suid.
-     * This occurs on Android 4.0+
-     */
-    setenv("LD_LIBRARY_PATH", "/vendor/lib64:/vendor/lib:/system/lib64:/system/lib:/system/vendor/lib64:/system/vendor/lib", 0);
-
     LOGD("su invoked.");
 
     struct su_context ctx = {
