@@ -49,6 +49,8 @@ su
 /system/bin/reboot
 ```
 
+Note for Android 12 - there is no `/system` mount, so you will need to remount the root mount `/` instead. So replace the above mount with `/system/bin/mount -orw,remount /`
+
 ## License
 
 These files are a mash-up and refactor from a number of sources. We've retained both the
